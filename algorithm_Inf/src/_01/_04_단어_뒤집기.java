@@ -22,10 +22,8 @@ public class _04_단어_뒤집기 {
 
 		for(String m : answer) {
 			System.out.println(m);
-		}
-		
+		}	
 	}
-
 }
 /*
 	String으로 객체를 생성하면 그 값을 변경할 수 없음.

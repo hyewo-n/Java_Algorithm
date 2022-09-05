@@ -17,12 +17,8 @@ public class _02_대소문자_변환 {
 			if(Character.isLowerCase(x))
 				answer += Character.toUpperCase(x);
 			else
-				answer += Character.toLowerCase(x);
-			
+				answer += Character.toLowerCase(x);		
 		}
-		
 		System.out.println(answer);
-		
 	}
-
 }

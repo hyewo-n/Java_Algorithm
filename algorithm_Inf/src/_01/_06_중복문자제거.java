@@ -22,6 +22,6 @@ public class _06_중복문자제거 {
 		}
 		
 		System.out.println(answer);
+		
 	}
-
 }

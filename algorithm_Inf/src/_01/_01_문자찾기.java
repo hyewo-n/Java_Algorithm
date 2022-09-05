@@ -23,7 +23,5 @@ public class _01_문자찾기 {
 			}
 		}
 		System.out.println(answer);
-
 	}
-
 }
