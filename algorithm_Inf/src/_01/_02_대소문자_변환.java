@@ -19,6 +19,8 @@ public class _02_대소문자_변환 {
 			else
 				answer += Character.toLowerCase(x);		
 		}
+		
 		System.out.println(answer);
+		
 	}
 }

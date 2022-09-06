@@ -17,8 +17,7 @@ public class _07_회문_문자열_직접비교 {
 		}
 		
 		System.out.println(answer);
-		
-		
+			
 		/*
 		char[] arr = str.toUpperCase().toCharArray();
 		for(int i=0, j=arr.length-1; i<arr.length/2&j>arr.length/2; i++, j--) {

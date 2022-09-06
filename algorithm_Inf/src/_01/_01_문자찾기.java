@@ -22,6 +22,8 @@ public class _01_문자찾기 {
 				answer++;
 			}
 		}
+		
 		System.out.println(answer);
+		
 	}
 }

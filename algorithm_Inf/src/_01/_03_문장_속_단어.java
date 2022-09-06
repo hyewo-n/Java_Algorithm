@@ -27,6 +27,8 @@ public class _03_문장_속_단어 {
 				answer = x;
 			}
 		}
+		
 		System.out.println(answer);
+		
 	}
 }

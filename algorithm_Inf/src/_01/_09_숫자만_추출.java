@@ -15,5 +15,4 @@ public class _09_숫자만_추출 {
 		System.out.println(s);
 		
 	}
-
 }

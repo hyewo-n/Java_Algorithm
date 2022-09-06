@@ -10,7 +10,7 @@ public class _08_유효한_팰린드롬 {
 		Scanner sc = new Scanner(System.in);
 		String str = sc.nextLine();
 		
-		//                            //   A~Z가 아니면 ""으로 바꿈
+		//                                 A~Z가 아니면 ""으로 바꿈
 		str = str.toUpperCase().replaceAll("[^A-Z]", "");
 		//System.out.println(str);
 		
