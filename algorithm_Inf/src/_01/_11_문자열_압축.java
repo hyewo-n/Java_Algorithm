@@ -2,7 +2,7 @@ package _01;
 import java.util.*;
 
 public class _11_문자열_압축 {
-
+ 
 	public static void main(String[] args) {
 
 		String answer = "";

@@ -9,7 +9,7 @@ public class _04_단어_뒤집기 {
 		ArrayList<String> answer = new ArrayList<>();
 		
 		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
+		int  n = sc.nextInt();
 		String str[] = new String[n];
 		for(int i = 0; i < n; i++) {
 			str[i] = sc.next();
