@@ -40,5 +40,4 @@ public class _02_공통원소_구하기 {
 			System.out.print(x + " ");
 		
 	}
-
 }
