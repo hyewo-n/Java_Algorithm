@@ -15,19 +15,21 @@ public class _03_최대_매출 {
 		} // 입력 완료
 		
 		int answer=0;
-		int max=0;
+		int sum=0;
 		
-		for(int i=0; i<n-k+1; i++) {
-			int sum=0;
-			for(int j=i; j<i+k; j++) {
-				sum += arr[j];
-			}
-			if(sum > max) {
-				max = sum;
-				answer = max;
-			}
+		// 일단 처음 sum의 값은 직접 계산해서 저장
+		for(int i=0; i<k; i++) {
+			sum += arr[i];
+			answer = sum; //answer 초기화
+		}
+		
+		for(int i=k; i<n; i++)
+		{
+			// 한 칸씩 밀면서 갈 것이기 때문에
+			// 맨 앞의 배열 빼고 맨 뒤의 매열을 하나 더해줌
+			sum = sum + arr[i] - arr[i-k];
+			answer = Math.max(answer, sum);
 		}
 		System.out.println(answer);
 	}
-
 }
