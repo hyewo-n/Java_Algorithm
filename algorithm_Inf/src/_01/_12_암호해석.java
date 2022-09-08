@@ -12,6 +12,7 @@ public class _12_암호해석 {
 		int t = sc.nextInt();
 		String str = sc.next();
 		
+		// for문의 역할 : 반복 횟수 지정 (i 값 사용x)
 		for(int i=0; i<t; i++) {
 			String tmp = str.substring(0, 7);
 			tmp = tmp.replace('#', '1').replace('*', '0');

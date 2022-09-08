@@ -9,14 +9,16 @@ public class _11_문자열_압축 {
 		
 		Scanner sc = new Scanner(System.in);
 		String str = sc.next();
+		// 맨 끝에 문자도 비교해야 하므로 공백을 추가해줌
 		str = str + " ";
 		
 		int cnt = 1;
 		
+		// 공백이 추가되었기 때문에 length-1까지 돌리면 됨
 		for(int i=0; i<str.length()-1; i++) {
 			if(str.charAt(i) == str.charAt(i+1)) {
 				cnt ++;
-			} else {
+			} else {  // 문자가 다른 경우
 				answer = answer + str.charAt(i);
 				if(cnt>1)
 					answer += Integer.toString(cnt);
