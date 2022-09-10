@@ -17,11 +17,12 @@ public class _03_매출액의_종류 {
 		ArrayList<Integer> answer = new ArrayList<>();
 		HashMap<Integer, Integer> HM = new HashMap<>();
 		
+		// 먼저 세팅
 		for(int i=0; i<k-1; i++) {
 			HM.put(arr[i], HM.getOrDefault(arr[i], 0)+1);
 		}
 		
-		// 투포인트 알고리즘
+		// 투포인터 알고리즘
 		int lt=0;
 		for(int rt=k-1; rt<n; rt++) {
 			HM.put(arr[rt],  HM.getOrDefault(arr[rt], 0)+1);
@@ -39,5 +40,4 @@ public class _03_매출액의_종류 {
 			System.out.print(x+ " ");
 		}
 	}
-
 }

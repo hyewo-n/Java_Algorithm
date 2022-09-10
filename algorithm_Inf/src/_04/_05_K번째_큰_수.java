@@ -23,7 +23,8 @@ public class _05_K번째_큰_수 {
 		TreeSet<Integer> Tset = new TreeSet<>(Collections.reverseOrder());
 		
 		// 3장 뽑아서 도는 거니까 3중 for문(이건 생각해냈음. 처음 시작 범위만 잘못 설정)
-		// 끝나는 범위 그냥 n을으로 둬도 되냐? 그냥 둬도 됌. 뒤에 for문에서 결국 조건이 맞지 않기 때문에 false 됌
+		// 끝나는 범위 그냥 n을으로 둬도 되냐? 그냥 둬도 됌. 
+		// 뒤에 for문에서 결국 조건이 맞지 않기 때문에 false 됌
 		for(int i=0; i<n; i++) {
 			for(int j=i+1; j<n; j++) {
 				for(int l=j+1; l<n; l++) {
@@ -31,7 +32,16 @@ public class _05_K번째_큰_수 {
 				}
 			}
 		} // for문 끝
+
+		int cnt=0;
+		for(int x : Tset) {
+			cnt++;    // 몇 번째인지 알 수 있음
+			if(cnt==k)
+				System.out.println(x);
+			//System.out.println(cnt + " - " + x);
+		}
 		
+/*
 		HashMap<Integer, Integer> answer2 = new HashMap<>();
 		int sum=0;
 		
@@ -42,8 +52,23 @@ public class _05_K번째_큰_수 {
 					answer.put(sum, answer.getOrDefault(sum, 0));
 				}
 			}
-		} // for문 끝
-		
+		} 
+*/
 	}
 
 }
+
+/*
+ * 	TreeSet에서 사용하는 함수들
+ * 
+ * 	1. Tset.add();
+ * 		: 값 추가
+ * 	2. Tset.remove(143);
+ * 		: 값 삭제
+ * 	3. Tset.size();
+ * 		: 값의 갯수. 원소의 갯수를 알려줌
+ * 	4. Tset.first();
+ * 		: 오름차순에서는 최솟값, 내림차순에선 최댓값을 반환
+ * 	5. Tset.last();
+ *  	: 오름차순에서는 최댓값, 내림차순에선 최솟값을 반환
+ */

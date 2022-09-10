@@ -24,8 +24,6 @@ public class _02_아나그램 {
 			// 위에서 세팅을 해놓았기 때문에 값이 없을리는 없음. get() 사용
 			map.put(x,  map.get(x)-1);
 		}
-		
 		System.out.println(answer);
 	}
-
 }

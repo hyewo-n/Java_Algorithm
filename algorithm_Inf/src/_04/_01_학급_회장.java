@@ -13,7 +13,7 @@ public class _01_학급_회장 {
 		char answer=' ';
 		
 		HashMap<Character, Integer> map = new HashMap<>();
-		// map.compute('A', 3); // 하면 key 값은 A이고 value 값은 3이 되는 것
+		// map.put('A', 3); // 하면 key 값은 A이고 value 값은 3이 되는 것
 		
 		// str을 읽어서 알파벳 별로 HashMap에 저장
 		for(char x : str.toCharArray()) {
