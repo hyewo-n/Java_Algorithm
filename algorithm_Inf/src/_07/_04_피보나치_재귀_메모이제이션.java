@@ -16,6 +16,10 @@ public class _04_피보나치_재귀_메모이제이션 {
 	static int fibo[];
 	
 	public static int DFS(int n) {
+		// 값을 계산하기 전에 배열을 검사해서 값이 있으면 바로 그 값 출력
+		// 이걸 한 줄 추가하면 아무리 큰 값을 입력해도 1초만에 결과값 출력 가능
+		if(fibo[n] > 0)
+			return fibo[n];
 		 if(n==1)        // 첫 번째 항
 			 return fibo[n] = 1;
 		 else if(n==2)   // 두 번째 항
@@ -32,7 +36,7 @@ public class _04_피보나치_재귀_메모이제이션 {
 		int n = sc.nextInt();
 		
 		fibo = new int[n+1];
-		//DFS(n);
+		DFS(n);
 		for(int i=1; i<=n; i++) {
 			System.out.print(fibo[i] + " ");
 		}
