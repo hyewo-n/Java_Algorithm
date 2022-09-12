@@ -2,6 +2,7 @@ package _07;
 import java.util.*;
 
 /*
+ * (깊이우선탐색)
  *  이진트리 순회
  *        1
  *    2       3
