@@ -9,6 +9,8 @@ public class _01_합이_같은_부분집합_DFS {
 	public static void DFS (int L, int sum, int[] arr) {
 		if(flag)
 			return;
+		if(sum>(total/2))
+			return;
 		if(L==n) {
 			if((total-sum)==sum) {
 				answer="YES";
@@ -24,7 +26,7 @@ public class _01_합이_같은_부분집합_DFS {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int n = sc.nextInt();
+		n = sc.nextInt();
 		int arr[] = new int[n];
 		for(int i=0; i<n; i++) {
 			arr[i] = sc.nextInt();
