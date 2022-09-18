@@ -2,8 +2,8 @@ package _09;
 import java.util.*;
 
 class Edge implements Comparable<Edge> {
-	public int vex;
-	public int cost;
+	public int vex;    // 정점
+	public int cost;   // 간선의 가중치 값
 	Edge(int vex, int cost) {
 		this.vex = vex;
 		this.cost = cost;
