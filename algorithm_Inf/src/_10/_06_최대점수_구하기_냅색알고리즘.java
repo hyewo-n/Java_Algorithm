@@ -9,7 +9,7 @@ public class _06_최대점수_구하기_냅색알고리즘 {
 		
 		int n = sc.nextInt();
 		int m = sc.nextInt();
-		int dy[] = new int[n+1];
+		int dy[] = new int[m+1];
 		for(int i=0; i<n; i++) {
 			int ps = sc.nextInt();
 			int pt = sc.nextInt();
