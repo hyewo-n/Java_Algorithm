@@ -18,7 +18,6 @@ public class _06_최대점수_구하기_냅색알고리즘 {
 			}
 		}
 		System.out.println(dy[m]);
-
 	}
 
 }

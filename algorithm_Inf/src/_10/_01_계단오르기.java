@@ -16,7 +16,5 @@ public class _01_계단오르기 {
 			dy[i] = dy[i-2] + dy[i-1];
 		}
 		System.out.println(dy[n]);
- 
 	}
-
 }

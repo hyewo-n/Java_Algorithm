@@ -21,8 +21,7 @@ public class _05_동전교환_냅색알고리즘 {
 				dy[j] = Math.min(dy[j],  dy[j-arr[i]]+1);
 			}
 		}
-		System.out.println(dy[m]);
-		
+		System.out.println(dy[m]);		
 	}
 
 }

@@ -27,5 +27,4 @@ public class _03_최대부분증가수열_LIS {
 		}
 		System.out.println(answer);
 	}
-
 }

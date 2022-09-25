@@ -16,7 +16,5 @@ public class _02_돌다리_건너기 {
 			dy[i] = dy[i-2] + dy[i-1];
 		}
 		System.out.println(dy[n+1]);
-
 	}
-
 }

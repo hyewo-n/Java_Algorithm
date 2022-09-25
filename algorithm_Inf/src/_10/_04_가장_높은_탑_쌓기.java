@@ -49,8 +49,5 @@ public class _04_가장_높은_탑_쌓기 {
 			arr.add(new Brick(a, b, c));
 		}
 		System.out.println(T.solution(arr));
-		
-
 	}
-
 }
