@@ -64,5 +64,4 @@ public class _05_다익스트라_알고리즘 {
 				System.out.println(i + " : impossible");
 		}
 	}
-
 }

@@ -37,7 +37,6 @@ public class _01_¾¾¸§_¼±¼ö {
 				cnt++;
 			}
 		}
-		
 		System.out.println(cnt);
 	}
 }

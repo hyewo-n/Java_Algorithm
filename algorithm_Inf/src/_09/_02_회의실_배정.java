@@ -41,5 +41,4 @@ public class _02_회의실_배정 {
 		}
 		System.out.println(cnt);
 	}
-
 }

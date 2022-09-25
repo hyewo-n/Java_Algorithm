@@ -54,5 +54,4 @@ public class _04_최대_수입_스케줄 {
 			}
 			System.out.println(answer);
 	}
-
 }

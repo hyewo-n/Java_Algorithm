@@ -34,9 +34,5 @@ public class _06_친구인가_Disjoint_Set_Union_and_Find {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		int fa = Find(a);
-		
-		
-
 	}
-
 }
